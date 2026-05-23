@@ -1,0 +1,69 @@
+Basic classes and objects example of declaration : 
+
+#include<iostream>
+using namespace std ;
+class student{
+  public:
+  int registration_number ;
+  string name ;
+};
+
+int main(){
+  student obj1 ;
+  obj1.registration_number = 10 ;
+  obj1.name = "Shivansh" ;
+  
+  cout<< " registration number :" <<obj1.registration_number<< endl ;
+  cout<<" Name:" << obj1.name << endl ;
+  return 0 ;
+}
+
+
+classes and objects declaration example with two or more than two objects : 
+
+
+#include<iostream>
+using namespace std ;
+class student{
+  public:
+  string first_name ;
+  string last_name ;
+  int class_year ;
+  string major ;
+};
+
+int main(){
+  student obj1 ;
+  obj1.first_name= "Shivansh" ;
+  obj1.last_name = "Kumar" ;
+  obj1.class_year = 2006 ;
+  obj1.major = "Science" ;
+  
+  student obj2 ;
+  obj2.first_name = "ALLO" ;
+  obj2.last_name = "Kumar"  ;
+  obj2.class_year = 2008 ;
+  obj2.major = " Commerce";
+  
+  cout<< "1st student first_name : "<< obj1.first_name << endl ;
+  cout<< "1st student last_name :" << obj1.last_name << endl ;
+  cout<< "1st student class_year : "<< obj1.class_year << endl ;
+  cout<< "1st student major :" << obj1.major << endl ;
+  cout<< "2nd student first_name :" << obj2.first_name << endl ;
+  cout<< "2nd student last_name : "<< obj2.last_name << endl ;
+  cout<< "2nd student class_year : "<< obj2.class_year << endl ;
+  cout<< "2nd student major : "<< obj2.major << endl ;
+  
+  return 0 ;
+}
+
+
+output - 
+1st student first_name : Shivansh
+1st student last_name :Kumar
+1st student class_year : 2006
+1st student major :Science
+2nd student first_name :ALLO
+2nd student last_name : Kumar
+2nd student class_year : 2008
+2nd student major :  Commerce
