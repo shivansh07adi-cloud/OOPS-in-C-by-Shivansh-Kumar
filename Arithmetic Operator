@@ -1,0 +1,31 @@
+Arithmetic operator ->
+
+#include<iostream>
+using namespace std ;
+int main(){
+  int a = 10 ;
+  int b = 9 ;
+  
+  cout<<"sum of a and b is :"<<a+b<< endl ;
+  cout<<"substraction of a and b is :" <<a-b<< endl ;
+  cout<<"multiplication of a and b is :" <<a*b<< endl ;
+  cout<<"Division of a and b is :" <<a/b<< endl ; 
+  cout<<"Modulas of a and b is :" <<a%b<< endl ;
+  cout<<"increment of a and b is :" <<++a<< endl ;
+  cout<<"Decrement of a and b is :" <<--a<< endl ;
+
+  return 0 ;
+}
+
+
+
+Output:
+
+2 ms | 4.5 MB
+sum of a and b is :19
+substraction of a and b is :1
+multiplication of a and b is :90
+Division of a and b is :1
+Modulas of a and b is :1
+increment of a and b is :11
+Decrement of a and b is :10
