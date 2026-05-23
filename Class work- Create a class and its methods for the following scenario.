@@ -1,0 +1,73 @@
+Class work- Create a class and its methods
+for the following scenario.
+
+SLABS CSE/CSC 206-OOP
+
+Object- Person
+
+State/Properties:
+Black hair
+5.10 height
+Weighs 70 kg
+
+Behaviour/Action:
+Eat
+Sleep
+Run ,
+
+
+
+C++ code = 
+#include<iostream>
+using namespace std;
+
+class Person{
+public:
+    string hair_color;
+    float height;
+    int weight;
+
+    void Eat(){
+        cout<<"Person is eating"<<endl;
+    }
+
+    void Sleep(){
+        cout<<"Person is sleeping"<<endl;
+    }
+
+    void Run(){
+        cout<<"Person is running"<<endl;
+    }
+};
+
+int main()
+{
+    Person obj;
+
+    obj.hair_color = "Black";
+    obj.height = 5.10;
+    obj.weight = 70;
+
+    cout<<"Hair Color: "<<obj.hair_color<<endl;
+    cout<<"Height: "<<obj.height<<" feet"<<endl;
+    cout<<"Weight: "<<obj.weight<<" kg"<<endl;
+
+    obj.Eat();
+    obj.Sleep();
+    obj.Run();
+
+    return 0;
+}
+
+
+
+
+Output:
+
+2 ms | 4.4 MB
+Hair Color: Black
+Height: 5.1 feet
+Weight: 70 kg
+Person is eating
+Person is sleeping
+Person is running
