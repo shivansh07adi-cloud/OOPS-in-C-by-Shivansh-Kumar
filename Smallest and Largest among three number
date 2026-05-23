@@ -1,0 +1,40 @@
+
+#include<iostream>
+using namespace std ;
+int main(){
+  int a ;
+  int b ;
+  int c ;
+  int largest ;
+  int smallest ;
+  cout << "Enter numbers:";
+  cin >> a >> b >> c ;
+  
+  
+  //largest
+  if(a > b && a > c){
+    largest = a ;
+  }
+  else if(b > a && b > c){
+    largest = b ;
+  }
+  else{
+    largest = c ;
+  }
+  
+  
+  //smallest
+  if(a < b && a < c){
+    smallest = a ;
+  }
+  else if(b < a && b < c){
+    smallest = b ;
+  }
+  else{
+    smallest = c ;
+  }
+  
+  cout<<"the largest number among all is : "<<largest<< endl ;
+  cout<<"the smallest number among all is: "<<smallest<< endl ;
+  return 0 ;
+}
