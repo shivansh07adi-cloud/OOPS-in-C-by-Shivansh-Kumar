@@ -1,0 +1,13 @@
+All things will remain same in C++ , 
+what will change ?
+
+printf -> cout ;
+Scanf->   cin ;
+
+
+only this will change nothing else all logic will be same , nothing is changes except some words like cout , cin , cerr , endl .
+
+rest all concepts which we have learned in C will remain same and will be applied in a same way as we were doing earlier in c .
+
+
+Thank You ...
