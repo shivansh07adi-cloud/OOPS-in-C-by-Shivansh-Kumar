@@ -1,0 +1,66 @@
+Class work- Create a class and its members
+for the following scenario.
+
+1. Create a class that captures students. Each student has a
+first name, last name, class year, and major. Create two
+examples of students.
+
+1. Create a class that captures planets. Each planet has a name,
+a distance from the sun, and its gravity relative to Earth’s
+gravity. For distance and gravity, use the type double which
+captures real numbers. Make objects for Earth and your
+favorite non-earth planet.
+
+1. Create classes that capture bank customers and bank
+accounts. A customer has a first and last name. An account
+has a customer and a balance. Make objects for two
+accounts held by the same customer.
+
+
+
+For example - code of number 3 for reference - 
+
+/*Create classes that capture bank customers and bank
+accounts. A customer has a first and last name. An account has a customer and a balance. Make objects for two
+accounts held by the same customer.*/
+
+#include<iostream>
+using namespace std ;
+class bank {
+  public:
+  string first_name ;
+  string last_name ;
+  int balance ;
+};
+int main(){
+  bank obj1 ;
+  obj1.first_name = " Shivansh " ;
+  obj1.last_name = " Kumar " ;
+  obj1.balance = 10000 ;
+  
+  bank obj2 ;
+  obj2.first_name = " Shiv " ;
+  obj2.last_name = " Sharma " ;
+  obj2.balance = 20000 ;
+  
+  cout<< "The first name of customer 1 is:" << obj1.first_name << endl ;
+  cout<< "The last name of customer 1 is:" << obj1.last_name << endl ;
+  cout<< "The balance of customer 1 is:" << obj1.balance << endl ;
+  cout<< "The first name of customer 2 is:" << obj2.first_name << endl ;
+  cout<< "The last name of customer 2 is:" << obj2.last_name << endl ;
+  cout<< "The balance of customer 2 is:" << obj2.balance << endl ;
+  
+  return 0 ;
+
+Output:
+
+2 ms | 4.4 MB
+The first name of customer 1 is: Shivansh 
+The last name of customer 1 is: Kumar 
+The balance of customer 1 is:10000
+The first name of customer 2 is: Shiv 
+The last name of customer 2 is: Sharma 
+The balance of customer 2 is:20000
+
+
+}
